@@ -10,7 +10,6 @@
     audioManage.prototype = {
         bindEvent: function() {
             $(this.audio).on("ended", function() {
-
                 $scope.find(".next-btn").trigger("click");
             });
         },
